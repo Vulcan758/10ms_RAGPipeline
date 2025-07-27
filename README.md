@@ -23,9 +23,9 @@ uvicorn api:app --reload
 
 After doing this you now go to [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs), scroll to the ask pull down bar and edit the `text` value on the `Edit Value` portion. Then press execute and your request should go through and return a response. Keep in mind, due to the model running locally, it will take some time to generate a response but you will be able to monitor status updates on the command line as well as the health checker on the Swagger UI I asked one of the sample questions and the following as a response:
 
-Question: "কাকে অনুপমের ভাগ্য দেবতা বলে উল্লেখ করা হয়েছে?"
+Question: "অনুপমের ভাষায় সুপুরুষ কাকে বলা হয়েছে?"
 
-Answer/Response: "প্রদত্ত পাঠ্যটিতে, \"আমাদের আত্মা\" শব্দে একটি ধর্মীয় বিশ্বাস রয়েছে যে ঈশ্বর তাদের সাথে সংযোগ স্থাপন করতে পারেন। এই প্রসঙ্গে যখন এটি উল্লেখ করা হয় তখন এর অর্থ কী তা স্পষ্ট নয় কারণ এতে কোনও নির্দিষ্ট নাম বা পরিচয় দেওয়া হয়নি ইনপুট হিসেবে, তবে \"আমাদের আত্মা\" শব্দটি একটি ধর্মীয় বিশ্বাস যা ঈশ্বরের সাথে সংযোগ স্থাপন করতে পারে। এই প্রসঙ্গে এটি যেভাবে ব্যবহার করা হয় তার উপর ভিত্তি করে বিকল্পগুলি হল:\n1. ঈশ্বর তাদের জন্য নি" 
+Answer/Response: "এই কাজটি একটি বাক্য বা কবিতার জন্য সৃজনশীলভাবে অনুবাদ করা। এটি করার জন্য, আপনাকে প্রদত্ত পাঠটি বুঝতে হবে এবং একই অর্থ ধরে রাখতে এটিকে অন্য ভাষায় রূপ দিতে কয়েক শব্দে পরিবর্তন করতে হতে পারে।" 
 
 I provided a more detailed guide explaining snippets of the code and my thought process in a tidy on the notebook file (.ipynb) named "Final RAG Notebook". There you will see how I got to constructing the main BanglaRAG class. If you go to the test directory and go into the .ipynb file there you will see a much messier version of my thought process along with a few things I tried testing before doing my final implementations.
 

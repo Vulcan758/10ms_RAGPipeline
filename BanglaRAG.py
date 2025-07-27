@@ -12,7 +12,7 @@ class BanglaRAG():
         print("Loading LLM")
         self.llm = OllamaLLM(
                     model="kaizu/bn_chat",
-                    temperature=0.3, #less creativity, more factual context based answered
+                    temperature=0.45, #less creativity, more factual context based answered
                     system="""Always respond in Bengali. Use the context provided. 
                            If unsure, say "আমি জানি না\""""
                 )
